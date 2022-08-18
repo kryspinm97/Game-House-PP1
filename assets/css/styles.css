@@ -17,13 +17,13 @@ body {
 
 #logo {
   float: left;
-  margin-left: 15px;
+  margin-left: 30px;
   letter-spacing: 2px;
 }
 
 #logo a {
   text-transform: uppercase;
-  font-size: 200%;
+  font-size: 110%;
   color: #edf0f1;
   text-decoration: none;
 }
@@ -33,7 +33,6 @@ body {
 }
 
 #navigation li {
-  display: inline;
   float: right;
   list-style: none;
   margin-right:30px;
@@ -47,4 +46,11 @@ body {
 
 #logo , #navigation {
   line-height: 75px;
+}
+
+#image-main {
+  height: 1110px;
+  width: 100%;
+  background: url(../images/Gaming-Engines-For-C.png) no-repeat center center;
+  overflow: hidden;
 }
