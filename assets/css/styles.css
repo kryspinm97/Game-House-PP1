@@ -74,3 +74,22 @@ body {
 #equipment h2 {
   text-transform: uppercase;
 }
+
+footer {
+  height: 75px;
+}
+
+.social-info {
+  text-align: center;
+}
+
+.social-info li {
+  display: inline;
+}
+
+.social-info i {
+  font-size: 200%;
+  color:#edf0f1;
+  margin: 3%;
+  padding: 2%;
+}
