@@ -49,8 +49,28 @@ body {
 }
 
 #image-main {
-  height: 1110px;
+  height: 1000px;
   width: 100%;
-  background: url(../images/Gaming-Engines-For-C.png) no-repeat center center;
+  background: url(../images/Gaming-Engines-For-C.png) no-repeat center center ;
   overflow: hidden;
+}
+
+#about-us {
+  color:#edf0f1;
+  font-family: Overpass, sans-serif;
+  text-align: center;
+}
+
+#about-us h2 {
+  text-transform: uppercase;
+}
+
+#equipment {
+  color:#edf0f1;
+  text-align: center;
+  font-family: Overpass, sans-serif;
+}
+
+#equipment h2 {
+  text-transform: uppercase;
 }
