@@ -57,8 +57,11 @@ body {
 
 #about-us {
   color:#edf0f1;
-  font-family: Overpass, sans-serif;
-  text-align: center;
+  font-family: Montserrat, sans-serif;
+  float:left;
+  margin:10px;
+  padding: 10px;
+  width: 40%;
 }
 
 #about-us h2 {
@@ -67,8 +70,11 @@ body {
 
 #equipment {
   color:#edf0f1;
-  text-align: center;
-  font-family: Overpass, sans-serif;
+  font-family: Montserrat, sans-serif;
+  float: right;
+  width: 40%;
+  margin: 10px;
+  padding: 10px;
 }
 
 #equipment h2 {
@@ -90,6 +96,6 @@ footer {
 .social-info i {
   font-size: 200%;
   color:#edf0f1;
-  margin: 3%;
-  padding: 2%;
+  margin: 1%;
+  padding: 1%;
 }
