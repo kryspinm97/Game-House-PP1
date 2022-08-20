@@ -62,7 +62,7 @@ body {
   font-family: Montserrat, sans-serif;
   background: #24252a;
   color: #edf0f1;
-  font-size: 25px;
+  font-size: 23px;
   cursor: pointer;
   transition: 0.3s ease;
   border-style: none;
@@ -71,6 +71,7 @@ body {
 #navigation button:hover {
   background: #edf0f1;
   color: #24252a;
+  font-size: 24px;
 }
 
 #logo , #navigation {
@@ -143,7 +144,7 @@ footer {
   text-transform: uppercase;
   font-family: Montserrat, sans-serif;
   background: #24252a;
-  font-size: 25px;
+  font-size: 23px;
   cursor: pointer;
   transition: 0.3s ease;
   border-style: none;
@@ -152,4 +153,5 @@ footer {
 .form button:hover {
   background: #edf0f1;
   color: #24252a;
+  font-size: 25px;
 }
