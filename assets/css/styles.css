@@ -54,6 +54,25 @@ body {
   color: #edf0f1;
 }
 
+#navigation button {
+  width: 170px;
+  height: 30px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-family: Montserrat, sans-serif;
+  background: #24252a;
+  color: #edf0f1;
+  font-size: 25px;
+  cursor: pointer;
+  transition: 0.3s ease;
+  border-style: none;
+}
+
+#navigation button:hover {
+  background: #edf0f1;
+  color: #24252a;
+}
+
 #logo , #navigation {
   line-height: 75px;
 }
@@ -126,7 +145,8 @@ footer {
   background: #24252a;
   font-size: 25px;
   cursor: pointer;
-  transition: 0.6s ease;
+  transition: 0.3s ease;
+  border-style: none;
 }
 
 .form button:hover {
