@@ -7,30 +7,31 @@
   box-sizing: border-box;
 }
 
+html {
+    min-height: 100%;
+    background-image: url(../images/controllerps4.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+ }
+
 body {
   font-family: Montserrat, sans-serif;
   font-weight: 300;
-  height: 100vh;
-  background: linear-gradient(
-    to bottom,
-    #24252a 0%,
-    #24252a 50%,
-    #edf0f1 50%,
-    #edf0f1 100%
-  );
 }
 
 /* Logo and Navigation Elements */
 
 #logo {
   float: left;
-  margin-left: 40px;
+  margin-left: 42px;
+  margin-top: 40px;
   letter-spacing: 2px;
 }
 
 #logo a {
   text-transform: uppercase;
-  font-size: 110%;
+  font-size: 265%;
   color: #edf0f1;
   text-decoration: none;
 }
@@ -42,7 +43,9 @@ body {
 #navigation li {
   float: right;
   list-style: none;
-  margin-right:40px;
+  margin-right: 62px;
+  margin-top: 25px;
+  font-size: 120%;
 }
 
 #navigation a {
@@ -55,46 +58,10 @@ body {
   line-height: 75px;
 }
 
-#image-main {
-  height: 900px;
-  width: 100%;
-  background: url(../images/extraction-valley-pc-games-3840x2400-854.jpg) no-repeat center center ;
-  overflow: hidden;
-}
-
-#about-us {
-  color:#24252a;
-  font-family: Montserrat, sans-serif;
-  margin: 1%;
-  padding: 1%;
-  width: 25%;
-  font-size: 150%;
-  float: left;
-}
-
-#about-us h2 {
-  text-transform: uppercase;
-}
-
-#equipment {
-  color: #24252a;
-  font-family: Montserrat, sans-serif;
-  float: right;
-  margin: 1%;
-  padding: 1%;
-  width: 25%;
-  font-size: 150%;
-}
-
-#equipment h2 {
-  text-transform: uppercase;
-}
-
 footer {
-  position: relative;
-  clear: both;
-  height: 75px;
-  background-color: #24252a;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
 
 .social-info {
@@ -110,4 +77,3 @@ footer {
   color:#edf0f1;
   padding: 5%;
 }
-
