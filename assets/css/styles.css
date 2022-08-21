@@ -8,17 +8,33 @@
 }
 
 html {
-    min-height: 100%;
-    background-image: url(../images/controllerps4.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
- }
+  min-height: 100%;
+  background-image: url(../images/controllerps4.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
 
 body {
   font-family: Montserrat, sans-serif;
   font-weight: 300;
 }
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  border: 1px solid #24252a;
+  -webkit-text-fill-color: #edf0f1;
+  -webkit-box-shadow: 0 0 0px 1000px #24252a inset;
+  transition: background-color 5000s ease-in-out 0s;
+}
+
 
 /* Logo and Navigation Elements */
 
@@ -50,7 +66,7 @@ body {
 
 #navigation a {
   text-transform: uppercase;
-  text-decoration:none;
+  text-decoration: none;
   color: #edf0f1;
 }
 
@@ -74,7 +90,8 @@ body {
   font-size: 24px;
 }
 
-#logo , #navigation {
+#logo,
+#navigation {
   line-height: 75px;
 }
 
@@ -94,12 +111,21 @@ footer {
 
 .social-info i {
   font-size: 250%;
-  color:#edf0f1;
+  color: #edf0f1;
   padding: 5%;
 }
 
+.social-info a:hover {
+  font-size: 110%;
+}
+
+.social-info i:hover {
+  color: purple;
+}
+
+
 .sign-up-form {
-  color:#edf0f1;
+  color: #edf0f1;
   width: 600px;
   height: 700px;
   background-color: rgba(0, 0, 0, 0.37);
@@ -115,31 +141,30 @@ footer {
   text-align: center;
   text-transform: uppercase;
 }
+
 .sign-up-form h3 {
   font-size: 125%;
   text-align: center;
-  margin:2%;
+  margin: 2%;
 }
 
 .sign-up-form p {
   text-align: center;
   margin: 3%;
 }
+
 .sign-up-form input {
   position: relative;
   left: 50px;
-  color:#edf0f1;
-  border-radius: 2px;
+  color: #edf0f1;
+  border-radius: 25px;
   width: 450px;
   height: 35px;
   font-size: 20px;
   letter-spacing: 1px;
   background: transparent;
   margin-top: 30px;
-  border-bottom:1px solid #edf0f1;
-  border-top: none;
-  border-right: none;
-  border-left: none;
+  border-style:groove;
   font-family: Montserrat, sans-serif;
   text-align: center;
 }
@@ -154,7 +179,7 @@ footer {
   text-transform: uppercase;
   font-family: Montserrat, sans-serif;
   background: #24252a;
-  color:#edf0f1;
+  color: #edf0f1;
   font-size: 23px;
   cursor: pointer;
   transition: 0.3s ease;
@@ -167,12 +192,13 @@ footer {
   color: #24252a;
   font-size: 25px;
 }
+
 .login-form {
-  color:#edf0f1;
+  color: #edf0f1;
   width: 600px;
   height: 450px;
   background-color: rgba(0, 0, 0, 0.37);
-  border-radius: 10px;
+  border-radius: 25px;
   padding: 25px;
   position: absolute;
   top: 260px;
@@ -184,27 +210,25 @@ footer {
   text-align: center;
 }
 
-.login-form p{
+.login-form p {
   text-align: center;
-  position:relative;
+  position: relative;
   top: 50px;
 }
 
 .login-form input {
   position: relative;
   left: 50px;
-  color:#edf0f1;
-  border-radius: 2px;
+  background-color: #24252a;
+  color: #edf0f1;
+  border-radius: 25px;
   width: 450px;
   height: 35px;
   font-size: 20px;
   letter-spacing: 1px;
   background: transparent;
   margin-top: 30px;
-  border-bottom:1px solid #edf0f1;
-  border-top: none;
-  border-right: none;
-  border-left: none;
+  border-style: groove;
   font-family: Montserrat, sans-serif;
   text-align: center;
 }
@@ -219,7 +243,7 @@ footer {
   text-transform: uppercase;
   font-family: Montserrat, sans-serif;
   background: #24252a;
-  color:#edf0f1;
+  color: #edf0f1;
   font-size: 23px;
   cursor: pointer;
   transition: 0.3s ease;
