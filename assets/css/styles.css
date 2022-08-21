@@ -57,7 +57,7 @@ body {
 #navigation button {
   width: 170px;
   height: 30px;
-  border-radius: 5px;
+  border-radius: 25px;
   text-transform: uppercase;
   font-family: Montserrat, sans-serif;
   background: #24252a;
@@ -98,10 +98,10 @@ footer {
   padding: 5%;
 }
 
-.form {
+.sign-up-form {
   color:#edf0f1;
-  width: 400px;
-  height: 400px;
+  width: 600px;
+  height: 700px;
   background-color: rgba(0, 0, 0, 0.37);
   border-radius: 10px;
   padding: 25px;
@@ -110,17 +110,27 @@ footer {
   left: 150px;
 }
 
-.form h2 {
+.sign-up-form h2 {
   font-size: 250%;
   text-align: center;
+  text-transform: uppercase;
+}
+.sign-up-form h3 {
+  font-size: 125%;
+  text-align: center;
+  margin:2%;
 }
 
-.form input {
+.sign-up-form p {
+  text-align: center;
+  margin: 3%;
+}
+.sign-up-form input {
   position: relative;
-  left: 20px;
+  left: 50px;
   color:#edf0f1;
   border-radius: 2px;
-  width: 300px;
+  width: 450px;
   height: 35px;
   font-size: 20px;
   letter-spacing: 1px;
@@ -134,23 +144,91 @@ footer {
   text-align: center;
 }
 
-.form button {
+.sign-up-form button {
   position: relative;
-  left: 68px;
-  top: 80px;
-  width: 200px;
+  left: 75px;
+  top: 10px;
+  width: 400px;
   height: 60px;
   border-radius: 25px;
   text-transform: uppercase;
   font-family: Montserrat, sans-serif;
   background: #24252a;
+  color:#edf0f1;
   font-size: 23px;
   cursor: pointer;
   transition: 0.3s ease;
   border-style: none;
+  display: inline;
 }
 
-.form button:hover {
+.sign-up-form button:hover {
+  background: #edf0f1;
+  color: #24252a;
+  font-size: 25px;
+}
+.login-form {
+  color:#edf0f1;
+  width: 600px;
+  height: 450px;
+  background-color: rgba(0, 0, 0, 0.37);
+  border-radius: 10px;
+  padding: 25px;
+  position: absolute;
+  top: 260px;
+  left: 150px;
+}
+
+.login-form h2 {
+  font-size: 250%;
+  text-align: center;
+}
+
+.login-form p{
+  text-align: center;
+  position:relative;
+  top: 50px;
+}
+
+.login-form input {
+  position: relative;
+  left: 50px;
+  color:#edf0f1;
+  border-radius: 2px;
+  width: 450px;
+  height: 35px;
+  font-size: 20px;
+  letter-spacing: 1px;
+  background: transparent;
+  margin-top: 30px;
+  border-bottom:1px solid #edf0f1;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  font-family: Montserrat, sans-serif;
+  text-align: center;
+}
+
+.login-form button {
+  position: relative;
+  left: 68px;
+  top: 80px;
+  width: 400px;
+  height: 60px;
+  border-radius: 25px;
+  text-transform: uppercase;
+  font-family: Montserrat, sans-serif;
+  background: #24252a;
+  color:#edf0f1;
+  font-size: 23px;
+  cursor: pointer;
+  transition: 0.3s ease;
+  border-style: none;
+  display: inline-block;
+  margin: 2%;
+}
+
+.login-form button:hover {
   background: #edf0f1;
   color: #24252a;
   font-size: 25px;
