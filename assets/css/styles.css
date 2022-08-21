@@ -31,7 +31,7 @@ select:-webkit-autofill:hover,
 select:-webkit-autofill:focus {
   border: 1px solid #24252a;
   -webkit-text-fill-color: #edf0f1;
-  -webkit-box-shadow: 0 0 0px 1000px #24252a inset;
+  box-shadow: 0 0 0px 1000px #24252a inset;
   transition: background-color 5000s ease-in-out 0s;
 }
 
@@ -95,9 +95,41 @@ select:-webkit-autofill:focus {
   line-height: 75px;
 }
 
+#about-us {
+  font-family: Montserrat, sans-serif;
+  font-size: 135%;
+  margin: 45px;
+  color:#edf0f1;
+  position: absolute;
+  top: 200px;
+  text-align: left;
+  width: 23%;
+}
+
+#about-us h2 {
+  color: purple;
+  text-transform: uppercase;
+}
+
+#about-us-provide {
+  font-family: Montserrat, sans-serif;
+  font-size: 135%;
+  margin: 45px;
+  color:#edf0f1;
+  position: absolute;
+  top: 500px;
+  text-align: left;
+  width: 23%;
+}
+
+#about-us-provide h2 {
+  color: purple;
+  text-transform: uppercase;
+}
+
 footer {
   position: absolute;
-  bottom: 0;
+  bottom:0%;
   width: 100%;
 }
 
