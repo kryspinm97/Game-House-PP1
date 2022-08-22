@@ -317,3 +317,50 @@ footer > p {
   color: #24252a;
   font-size: 21px;
 }
+
+.events {
+  display: flex;
+  justify-content: center;
+}
+
+.events-card {
+  border-radius: 25px;
+  background-color: #24252a;
+  height: 360px;
+  width: 260px;
+  margin: 10px;
+}
+
+.events-image {
+  background-color: #edf0f1;
+  height: 150px;
+  margin-bottom: 15px;
+  background-size: cover;
+}
+
+.events-card h2 {
+  color:#edf0f1;
+  text-align: center;
+}
+
+.events-card p {
+  text-align: center;
+}
+
+.events-card-1 {
+  background-image: url(..//images/apex-image.jpg);
+  background-position: 19%;
+  border-radius: 25px;
+}
+
+.events-card-2 {
+  background-image: url(..//images/league-of-legends.jpg);
+  background-position: 50%;
+  border-radius: 25px;
+}
+
+.events-card-3 {
+  background-image: url(..//images/fortnite-image.jpg);
+  background-position: 50%;
+  border-radius: 25px;
+}
