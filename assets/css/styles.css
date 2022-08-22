@@ -8,7 +8,7 @@
 }
 
 html {
-  min-height: 100%;
+  height: 100%;
   background-image: url(../images/controllerps4.png);
   background-size: cover;
   background-repeat: no-repeat;
@@ -18,14 +18,22 @@ html {
 body {
   font-family: Montserrat, sans-serif;
   font-weight: 300;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
-i {
-  color: purple;
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
+
+
+/* Any previous autofill information to match page theme color */
 
 input:-webkit-autofill,
-input:-webkit-autofill:hover, 
+input:-webkit-autofill:hover,
 input:-webkit-autofill:focus,
 textarea:-webkit-autofill,
 textarea:-webkit-autofill:hover,
@@ -45,26 +53,40 @@ select:-webkit-autofill:focus {
 #logo {
   float: left;
   margin-left: 42px;
-  margin-top: 40px;
+  margin-top: 20px;
   letter-spacing: 2px;
 }
 
 #logo a {
   text-transform: uppercase;
-  font-size: 265%;
+  font-size: 165%;
   color: #edf0f1;
   text-decoration: none;
 }
 
-#navigation {
-  letter-spacing: 2px;
+#logo i {
+  color: purple;
+}
+
+#navigation button {
+  width: 170px;
+  height: 30px;
+  border-radius: 25px;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-family: Montserrat, sans-serif;
+  background: #24252a;
+  color: #edf0f1;
+  cursor: pointer;
+  transition: 0.3s ease;
+  border-style: none;
+  float: right;
 }
 
 #navigation li {
   float: right;
   list-style: none;
   margin-right: 62px;
-  margin-top: 25px;
   font-size: 120%;
 }
 
@@ -74,24 +96,12 @@ select:-webkit-autofill:focus {
   color: #edf0f1;
 }
 
-#navigation button {
-  width: 170px;
-  height: 30px;
-  border-radius: 25px;
-  text-transform: uppercase;
-  font-family: Montserrat, sans-serif;
-  background: #24252a;
-  color: #edf0f1;
-  font-size: 23px;
-  cursor: pointer;
-  transition: 0.3s ease;
-  border-style: none;
-}
+
 
 #navigation button:hover {
   background: #edf0f1;
   color: #24252a;
-  font-size: 24px;
+  font-size: 16px;
 }
 
 #logo,
@@ -103,7 +113,7 @@ select:-webkit-autofill:focus {
   font-family: Montserrat, sans-serif;
   font-size: 135%;
   margin: 45px;
-  color:#edf0f1;
+  color: #edf0f1;
   position: absolute;
   top: 150px;
   text-align: left;
@@ -119,7 +129,7 @@ select:-webkit-autofill:focus {
   font-family: Montserrat, sans-serif;
   font-size: 135%;
   margin: 45px;
-  color:#edf0f1;
+  color: #edf0f1;
   position: absolute;
   top: 470px;
   text-align: left;
@@ -133,7 +143,7 @@ select:-webkit-autofill:focus {
 
 footer {
   position: absolute;
-  bottom:-15rem;
+  bottom: -15rem;
   width: 100%;
   background-color: #24252a;
   height: 220px;
@@ -202,7 +212,7 @@ footer {
   letter-spacing: 1px;
   background: transparent;
   margin-top: 30px;
-  border-style:groove;
+  border-style: groove;
   font-family: Montserrat, sans-serif;
   text-align: center;
 }
