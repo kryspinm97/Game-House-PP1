@@ -20,6 +20,10 @@ body {
   font-weight: 300;
 }
 
+i {
+  color: purple;
+}
+
 input:-webkit-autofill,
 input:-webkit-autofill:hover, 
 input:-webkit-autofill:focus,
@@ -101,7 +105,7 @@ select:-webkit-autofill:focus {
   margin: 45px;
   color:#edf0f1;
   position: absolute;
-  top: 200px;
+  top: 150px;
   text-align: left;
   width: 23%;
 }
@@ -117,7 +121,7 @@ select:-webkit-autofill:focus {
   margin: 45px;
   color:#edf0f1;
   position: absolute;
-  top: 500px;
+  top: 470px;
   text-align: left;
   width: 23%;
 }
@@ -161,7 +165,7 @@ footer {
 .sign-up-form {
   color: #edf0f1;
   width: 600px;
-  height: 700px;
+  height: 670px;
   background-color: rgba(0, 0, 0, 0.37);
   border-radius: 10px;
   padding: 25px;
@@ -230,7 +234,7 @@ footer {
 .login-form {
   color: #edf0f1;
   width: 600px;
-  height: 450px;
+  height: 420px;
   background-color: rgba(0, 0, 0, 0.37);
   border-radius: 25px;
   padding: 25px;
