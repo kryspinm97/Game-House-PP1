@@ -129,8 +129,10 @@ select:-webkit-autofill:focus {
 
 footer {
   position: absolute;
-  bottom:0%;
+  bottom:-15rem;
   width: 100%;
+  background-color: #24252a;
+  height: 220px;
 }
 
 .social-info {
@@ -142,7 +144,7 @@ footer {
 }
 
 .social-info i {
-  font-size: 250%;
+  font-size: 150%;
   color: #edf0f1;
   padding: 5%;
 }
@@ -164,8 +166,8 @@ footer {
   border-radius: 10px;
   padding: 25px;
   position: absolute;
-  top: 260px;
-  left: 150px;
+  top: 200px;
+  left: 30px;
 }
 
 .sign-up-form h2 {
@@ -233,8 +235,8 @@ footer {
   border-radius: 25px;
   padding: 25px;
   position: absolute;
-  top: 260px;
-  left: 150px;
+  top: 220px;
+  left: 30px;
 }
 
 .login-form h2 {
