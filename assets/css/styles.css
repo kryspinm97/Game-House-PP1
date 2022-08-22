@@ -32,7 +32,7 @@ header {
 }
 
 
-/* Any previous autofill information to match page theme color */
+/* Any previous browser autofill information to match page theme color */
 
 input:-webkit-autofill,
 input:-webkit-autofill:hover,
@@ -108,6 +108,8 @@ select:-webkit-autofill:focus {
   line-height: 75px;
 }
 
+/* About us Content */
+
 #about-us {
   font-family: Montserrat, sans-serif;
   font-size: 110%;
@@ -116,7 +118,7 @@ select:-webkit-autofill:focus {
   position: absolute;
   top: 150px;
   text-align: left;
-  width: 23%;
+  width: 21%;
 }
 
 #about-us h2 {
@@ -130,15 +132,17 @@ select:-webkit-autofill:focus {
   margin: 45px;
   color: #edf0f1;
   position: absolute;
-  top: 470px;
+  top: 400px;
   text-align: left;
-  width: 23%;
+  width: 21%;
 }
 
 #about-us-provide h2 {
   color: purple;
   text-transform: uppercase;
 }
+
+/* Footer and Social Media links Styling */
 
 footer {
   margin-top: auto;
@@ -172,6 +176,8 @@ footer > p {
 .social-info i:hover {
   color: purple;
 }
+
+/* Styling of the login and Register forms */
 
 .sign-up-form {
   color: #edf0f1;
@@ -241,7 +247,7 @@ footer > p {
 .sign-up-form button:hover {
   background: #edf0f1;
   color: #24252a;
-  font-size: 25px;
+  font-size: 21px;
 }
 
 .login-form {
@@ -259,6 +265,8 @@ footer > p {
 .login-form h2 {
   font-size: 175%;
   text-align: center;
+  position: relative;
+  top: 10px;
 }
 
 .login-form p {
