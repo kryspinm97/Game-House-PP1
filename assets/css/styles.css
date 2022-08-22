@@ -18,7 +18,9 @@ html {
 body {
   font-family: Montserrat, sans-serif;
   font-weight: 300;
-  min-height: 100vh;
+  
+  min-height: 100%;
+
   display: flex;
   flex-direction: column;
 }
@@ -86,8 +88,7 @@ select:-webkit-autofill:focus {
 #navigation li {
   float: right;
   list-style: none;
-  margin-right: 62px;
-  font-size: 120%;
+  margin-right: 42px;
 }
 
 #navigation a {
@@ -95,8 +96,6 @@ select:-webkit-autofill:focus {
   text-decoration: none;
   color: #edf0f1;
 }
-
-
 
 #navigation button:hover {
   background: #edf0f1;
@@ -111,7 +110,7 @@ select:-webkit-autofill:focus {
 
 #about-us {
   font-family: Montserrat, sans-serif;
-  font-size: 135%;
+  font-size: 110%;
   margin: 45px;
   color: #edf0f1;
   position: absolute;
@@ -127,7 +126,7 @@ select:-webkit-autofill:focus {
 
 #about-us-provide {
   font-family: Montserrat, sans-serif;
-  font-size: 135%;
+  font-size: 110%;
   margin: 45px;
   color: #edf0f1;
   position: absolute;
@@ -142,11 +141,16 @@ select:-webkit-autofill:focus {
 }
 
 footer {
-  position: absolute;
-  bottom: -15rem;
-  width: 100%;
+  margin-top: auto;
   background-color: #24252a;
-  height: 220px;
+}
+
+footer > p {
+  color:#edf0f1;
+  position: absolute;
+  bottom: 14px;
+  left: 15px;
+  font-size:75%;
 }
 
 .social-info {
@@ -158,26 +162,23 @@ footer {
 }
 
 .social-info i {
-  font-size: 150%;
+  text-align: center;
+  font-size: 130%;
   color: #edf0f1;
-  padding: 5%;
-}
-
-.social-info a:hover {
-  font-size: 110%;
+  letter-spacing: 25px;
+  margin: 10px;
 }
 
 .social-info i:hover {
   color: purple;
 }
 
-
 .sign-up-form {
   color: #edf0f1;
-  width: 600px;
-  height: 670px;
+  width: 400px;
+  height: 550px;
   background-color: rgba(0, 0, 0, 0.37);
-  border-radius: 10px;
+  border-radius: 25px;
   padding: 25px;
   position: absolute;
   top: 200px;
@@ -185,18 +186,21 @@ footer {
 }
 
 .sign-up-form h2 {
-  font-size: 250%;
+  font-size: 150%;
   text-align: center;
   text-transform: uppercase;
 }
 
 .sign-up-form h3 {
-  font-size: 125%;
+  font-size: 100%;
   text-align: center;
   margin: 2%;
 }
 
 .sign-up-form p {
+  font-size: 13px;
+  position:relative;
+  top: 10px;
   text-align: center;
   margin: 3%;
 }
@@ -206,13 +210,12 @@ footer {
   left: 50px;
   color: #edf0f1;
   border-radius: 25px;
-  width: 450px;
+  width: 250px;
   height: 35px;
-  font-size: 20px;
+  font-size: 14px;
   letter-spacing: 1px;
   background: transparent;
-  margin-top: 30px;
-  border-style: groove;
+  margin-top: 15px;
   font-family: Montserrat, sans-serif;
   text-align: center;
 }
@@ -220,15 +223,15 @@ footer {
 .sign-up-form button {
   position: relative;
   left: 75px;
-  top: 10px;
-  width: 400px;
+  top: 25px;
+  width: 200px;
   height: 60px;
   border-radius: 25px;
   text-transform: uppercase;
   font-family: Montserrat, sans-serif;
   background: #24252a;
   color: #edf0f1;
-  font-size: 23px;
+  font-size: 20px;
   cursor: pointer;
   transition: 0.3s ease;
   border-style: none;
@@ -243,8 +246,8 @@ footer {
 
 .login-form {
   color: #edf0f1;
-  width: 600px;
-  height: 420px;
+  width: 400px;
+  height: 400px;
   background-color: rgba(0, 0, 0, 0.37);
   border-radius: 25px;
   padding: 25px;
@@ -254,11 +257,12 @@ footer {
 }
 
 .login-form h2 {
-  font-size: 250%;
+  font-size: 175%;
   text-align: center;
 }
 
 .login-form p {
+  font-size: 13px;
   text-align: center;
   position: relative;
   top: 50px;
@@ -267,16 +271,16 @@ footer {
 .login-form input {
   position: relative;
   left: 50px;
+  top: 20px;
   background-color: #24252a;
   color: #edf0f1;
   border-radius: 25px;
-  width: 450px;
+  width: 250px;
   height: 35px;
-  font-size: 20px;
+  font-size: 14px;
   letter-spacing: 1px;
   background: transparent;
-  margin-top: 30px;
-  border-style: groove;
+  margin-top: 20px;
   font-family: Montserrat, sans-serif;
   text-align: center;
 }
@@ -285,14 +289,14 @@ footer {
   position: relative;
   left: 68px;
   top: 80px;
-  width: 400px;
+  width: 200px;
   height: 60px;
   border-radius: 25px;
   text-transform: uppercase;
   font-family: Montserrat, sans-serif;
   background: #24252a;
   color: #edf0f1;
-  font-size: 23px;
+  font-size: 20px;
   cursor: pointer;
   transition: 0.3s ease;
   border-style: none;
@@ -303,5 +307,5 @@ footer {
 .login-form button:hover {
   background: #edf0f1;
   color: #24252a;
-  font-size: 25px;
+  font-size: 21px;
 }
