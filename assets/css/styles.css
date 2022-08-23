@@ -28,7 +28,7 @@ body {
 header {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items:center;
 }
 
 
@@ -321,19 +321,22 @@ footer > p {
 .events {
   display: flex;
   justify-content: center;
+  position: absolute;
+  bottom: 60px;
+  left: 20px;
 }
 
 .events-card {
   border-radius: 25px;
   background-color: #24252a;
-  height: 360px;
-  width: 260px;
+  height: 400px;
+  width: 300px;
   margin: 10px;
 }
 
 .events-image {
   background-color: #edf0f1;
-  height: 150px;
+  height: 200px;
   margin-bottom: 15px;
   background-size: cover;
 }
@@ -345,6 +348,8 @@ footer > p {
 
 .events-card p {
   text-align: center;
+  color: #edf0f1;
+  padding: 5%;
 }
 
 .events-card-1 {
