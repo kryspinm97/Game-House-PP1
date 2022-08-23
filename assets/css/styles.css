@@ -20,7 +20,6 @@ body {
   font-weight: 300;
   
   min-height: 100%;
-
   display: flex;
   flex-direction: column;
 }
@@ -147,6 +146,8 @@ select:-webkit-autofill:focus {
 footer {
   margin-top: auto;
   background-color: #24252a;
+  position: relative;
+  top: 1200px;
 }
 
 footer > p {
@@ -318,12 +319,14 @@ footer > p {
   font-size: 21px;
 }
 
+
 .events {
   display: flex;
   justify-content: center;
-  position: absolute;
-  bottom: 60px;
-  left: 20px;
+  position: relative;
+  top: 750px;
+  background-color: #090a0a4f;
+
 }
 
 .events-card {
@@ -331,7 +334,13 @@ footer > p {
   background-color: #24252a;
   height: 400px;
   width: 300px;
-  margin: 10px;
+  margin: 50px;
+
+}
+
+.events-card:hover {
+  transform:scale(1.02);
+  transition: 0.3s ease;
 }
 
 .events-image {
@@ -369,3 +378,23 @@ footer > p {
   background-position: 50%;
   border-radius: 25px;
 }
+
+.events-card-4 {
+  background-image: url(..//images/Call-of-Duty-Warzone.jpg);
+  border-radius: 25px;
+  background-position: 40%;
+}
+
+@media screen and (max-width: 1200px) {
+  #about-us {
+    width:45%;
+    height: auto;
+  }
+
+  #about-us-provide {
+    width: 22%;
+    height: auto;
+  }
+  
+}
+
