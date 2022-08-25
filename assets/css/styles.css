@@ -113,9 +113,9 @@ select:-webkit-autofill:focus {
   font-family: Montserrat, sans-serif;
   font-size: 110%;
   margin: 45px;
-  color: #edf0f1;
+  color: #24252a;
   position: absolute;
-  top: 150px;
+  top: 1500px;
   text-align: left;
   width: 21%;
 }
@@ -129,9 +129,10 @@ select:-webkit-autofill:focus {
   font-family: Montserrat, sans-serif;
   font-size: 110%;
   margin: 45px;
-  color: #edf0f1;
+  color:#24252a;
   position: absolute;
-  top: 400px;
+  top: 1500px;
+  right: 40px;
   text-align: left;
   width: 21%;
 }
@@ -147,7 +148,7 @@ footer {
   margin-top: auto;
   background-color: #24252a;
   position: relative;
-  top: 1200px;
+  top: 1390px;
 }
 
 footer > p {
@@ -180,31 +181,31 @@ footer > p {
 
 /* Styling of the login and Register forms */
 
-.sign-up-form {
+#contact-form {
   color: #edf0f1;
   width: 400px;
-  height: 550px;
+  height: 400px;
   background-color: rgba(0, 0, 0, 0.37);
   border-radius: 25px;
   padding: 25px;
   position: absolute;
-  top: 200px;
-  left: 30px;
+  top: 1850px;
+  left: 750px;
 }
 
-.sign-up-form h2 {
+#contact-form h2 {
   font-size: 150%;
   text-align: center;
   text-transform: uppercase;
 }
 
-.sign-up-form h3 {
+#contact-form h3 {
   font-size: 100%;
   text-align: center;
   margin: 2%;
 }
 
-.sign-up-form p {
+#contact-form p {
   font-size: 13px;
   position:relative;
   top: 10px;
@@ -212,9 +213,9 @@ footer > p {
   margin: 3%;
 }
 
-.sign-up-form input {
+#contact-form input {
   position: relative;
-  left: 50px;
+  left: 32px;
   color: #edf0f1;
   border-radius: 25px;
   width: 250px;
@@ -225,9 +226,10 @@ footer > p {
   margin-top: 15px;
   font-family: Montserrat, sans-serif;
   text-align: center;
+  margin: 15px;
 }
 
-.sign-up-form button {
+#contact-form button {
   position: relative;
   left: 75px;
   top: 25px;
@@ -245,75 +247,7 @@ footer > p {
   display: inline;
 }
 
-.sign-up-form button:hover {
-  background: #edf0f1;
-  color: #24252a;
-  font-size: 21px;
-}
-
-.login-form {
-  color: #edf0f1;
-  width: 400px;
-  height: 400px;
-  background-color: rgba(0, 0, 0, 0.37);
-  border-radius: 25px;
-  padding: 25px;
-  position: absolute;
-  top: 220px;
-  left: 30px;
-}
-
-.login-form h2 {
-  font-size: 175%;
-  text-align: center;
-  position: relative;
-  top: 10px;
-}
-
-.login-form p {
-  font-size: 13px;
-  text-align: center;
-  position: relative;
-  top: 50px;
-}
-
-.login-form input {
-  position: relative;
-  left: 50px;
-  top: 20px;
-  background-color: #24252a;
-  color: #edf0f1;
-  border-radius: 25px;
-  width: 250px;
-  height: 35px;
-  font-size: 14px;
-  letter-spacing: 1px;
-  background: transparent;
-  margin-top: 20px;
-  font-family: Montserrat, sans-serif;
-  text-align: center;
-}
-
-.login-form button {
-  position: relative;
-  left: 68px;
-  top: 80px;
-  width: 200px;
-  height: 60px;
-  border-radius: 25px;
-  text-transform: uppercase;
-  font-family: Montserrat, sans-serif;
-  background: #24252a;
-  color: #edf0f1;
-  font-size: 20px;
-  cursor: pointer;
-  transition: 0.3s ease;
-  border-style: none;
-  display: inline-block;
-  margin: 2%;
-}
-
-.login-form button:hover {
+#contact-form button:hover {
   background: #edf0f1;
   color: #24252a;
   font-size: 21px;
@@ -324,7 +258,7 @@ footer > p {
   display: flex;
   justify-content: center;
   position: relative;
-  top: 750px;
+  top: 900px;
   background-color: #090a0a4f;
 
 }
