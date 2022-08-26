@@ -9,19 +9,23 @@
 
 html {
   height: 100%;
-  background-image: url(../images/controllerps4.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
 }
 
 body {
   font-family: Montserrat, sans-serif;
-  font-weight: 300;
   
   min-height: 100%;
   display: flex;
   flex-direction: column;
+
+  background-image: url(../images/controllerps4.png);
+  background-size: 100% 1100px;
+  background-repeat: no-repeat;
+
+}
+
+section {
+  background-color: #edf0f1;
 }
 
 header {
@@ -30,6 +34,23 @@ header {
   align-items:center;
 }
 
+footer {
+  background-color: #24252a;
+  margin: 0;
+  position: relative;
+  top:985px;
+}
+
+footer > p {
+  color:#edf0f1;
+  font-size:75%;
+  position: relative;
+  bottom: 20px;
+}
+
+footer ul {
+  margin-top: 10px;
+}
 
 /* Any previous browser autofill information to match page theme color */
 
@@ -114,8 +135,6 @@ select:-webkit-autofill:focus {
   font-size: 110%;
   margin: 45px;
   color: #24252a;
-  position: absolute;
-  top: 1500px;
   text-align: left;
   width: 21%;
 }
@@ -130,11 +149,11 @@ select:-webkit-autofill:focus {
   font-size: 110%;
   margin: 45px;
   color:#24252a;
-  position: absolute;
-  top: 1500px;
-  right: 40px;
   text-align: left;
   width: 21%;
+
+  display: flex;
+  flex-direction: column;
 }
 
 #about-us-provide h2 {
@@ -142,55 +161,20 @@ select:-webkit-autofill:focus {
   text-transform: uppercase;
 }
 
-/* Footer and Social Media links Styling */
-
-footer {
-  margin-top: auto;
-  background-color: #24252a;
-  position: relative;
-  top: 1390px;
-}
-
-footer > p {
-  color:#edf0f1;
-  position: absolute;
-  bottom: 14px;
-  left: 15px;
-  font-size:75%;
-}
-
-.social-info {
-  text-align: center;
-}
-
-.social-info li {
-  display: inline;
-}
-
-.social-info i {
-  text-align: center;
-  font-size: 130%;
-  color: #edf0f1;
-  letter-spacing: 25px;
-  margin: 10px;
-}
-
-.social-info i:hover {
-  color: purple;
-}
-
 /* Styling of the login and Register forms */
 
 #contact-form {
   color: #edf0f1;
-  width: 400px;
+  width: 100%;
   height: 400px;
   background-color: rgba(0, 0, 0, 0.37);
-  border-radius: 25px;
   padding: 25px;
-  position: absolute;
-  top: 1850px;
-  left: 750px;
+
+  display: flex;
+  flex-direction: column;
+
+  position: relative;
+  top: 985px;
 }
 
 #contact-form h2 {
@@ -214,8 +198,6 @@ footer > p {
 }
 
 #contact-form input {
-  position: relative;
-  left: 32px;
   color: #edf0f1;
   border-radius: 25px;
   width: 250px;
@@ -230,11 +212,9 @@ footer > p {
 }
 
 #contact-form button {
-  position: relative;
-  left: 75px;
-  top: 25px;
   width: 200px;
   height: 60px;
+  margin: 15px;
   border-radius: 25px;
   text-transform: uppercase;
   font-family: Montserrat, sans-serif;
@@ -253,14 +233,37 @@ footer > p {
   font-size: 21px;
 }
 
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.about-us-1 {
+  background-color:#edf0f1;
+  position: relative;
+  top: 985px;
+}
+
+.about-us-2 {
+  background-color: #edf0f1;
+  position: relative;
+  top: 985px;
+}
 
 .events {
-  display: flex;
-  justify-content: center;
-  position: relative;
-  top: 900px;
-  background-color: #090a0a4f;
 
+  height: 500px;
+  width: 100%;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #1c1e1fab;
+
+  position: relative;
+  top: 985px;
+  
 }
 
 .events-card {
@@ -269,6 +272,7 @@ footer > p {
   height: 400px;
   width: 300px;
   margin: 50px;
+  
 
 }
 
@@ -319,16 +323,24 @@ footer > p {
   background-position: 40%;
 }
 
-@media screen and (max-width: 1200px) {
-  #about-us {
-    width:45%;
-    height: auto;
-  }
+/* Social Media links Styling */
 
-  #about-us-provide {
-    width: 22%;
-    height: auto;
-  }
-  
+.social-info {
+  text-align: center;
 }
 
+.social-info li {
+  display: inline-flex;
+  flex-direction: row;
+}
+
+.social-info i {
+  font-size: 130%;
+  color: #edf0f1;
+  letter-spacing: 25px;
+  margin: 10px;
+}
+
+.social-info i:hover {
+  color: purple;
+}
