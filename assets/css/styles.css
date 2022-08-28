@@ -9,6 +9,7 @@
 
 html {
   height: 100%;
+
 }
 
 body {
@@ -31,8 +32,26 @@ section {
 
 header {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items:center;
+
+  position: relative;
+  top: 380px;
+}
+
+header > h3 {
+  text-align: center;
+  color: #edf0f1;
+  font-size: 175%;
+  text-transform: uppercase;
+}
+
+h3 > strong {
+  color: orange;
+}
+
+h3 > em {
+  color: orange;
 }
 
 footer {
@@ -43,14 +62,24 @@ footer {
 }
 
 footer > p {
-  color:orange;
+  color:#edf0f1;
   font-size:75%;
   position: relative;
   bottom: 20px;
 }
 
 footer ul {
-  margin-top: 10px;
+  margin-top: 15px;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  position: relative;
+  bottom: 250px;
 }
 
 /* Any previous browser autofill information to match page theme color */
@@ -85,7 +114,7 @@ select:-webkit-autofill:focus {
 
 #logo a {
   text-transform: uppercase;
-  font-size: 165%;
+  font-size: 250%;
   color: #edf0f1;
   text-decoration: none;
 }
@@ -107,13 +136,16 @@ select:-webkit-autofill:focus {
   cursor: pointer;
   transition: 0.3s ease;
   border-style: none;
-  float: right;
+  letter-spacing: 4px;
+
 }
+
 
 #navigation li {
   float: right;
   list-style: none;
   margin-right: 42px;
+  padding: 100px;
 }
 
 #navigation a {
@@ -125,7 +157,7 @@ select:-webkit-autofill:focus {
 #navigation button:hover {
   background: orange;
   color: #24252a;
-  font-size: 16px;
+  font-size: 17px;
   box-shadow: 0 0 10px orange;
 }
 
@@ -159,7 +191,6 @@ select:-webkit-autofill:focus {
   margin: 20px;
   color:#24252a;
   text-align: left;
-  
   background-color: #edf0f1;
   border-radius: 25px;
   padding: 25px;
@@ -268,7 +299,8 @@ select:-webkit-autofill:focus {
   justify-content: center;
   align-items:flex-start;
   position: relative;
-  top: 945px;
+  top: 545px;
+  
 }
 
 .events {
