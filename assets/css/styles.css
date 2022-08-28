@@ -18,9 +18,10 @@ body {
   display: flex;
   flex-direction: column;
 
-  background-image: url(../images/controllerps4.png);
-  background-size: 100% 1100px;
+  background-image: url(../images/minimal-abstract-background-4k-f2.jpg);
+  background-size: cover;
   background-repeat: no-repeat;
+  background-size: 100%
 
 }
 
@@ -38,11 +39,11 @@ footer {
   background-color: #24252a;
   margin: 0;
   position: relative;
-  top:985px;
+  top:945px;
 }
 
 footer > p {
-  color:#edf0f1;
+  color:orange;
   font-size:75%;
   position: relative;
   bottom: 20px;
@@ -73,10 +74,13 @@ select:-webkit-autofill:focus {
 /* Logo and Navigation Elements */
 
 #logo {
-  float: left;
-  margin-left: 42px;
+  display:flex;
+  flex-direction: column;
+  
+  margin-left: 40px;
   margin-top: 20px;
-  letter-spacing: 2px;
+  letter-spacing: 5px;
+  
 }
 
 #logo a {
@@ -87,7 +91,8 @@ select:-webkit-autofill:focus {
 }
 
 #logo i {
-  color: purple;
+  color: orange;
+  text-shadow: 0 0 5px orange;
 }
 
 #navigation button {
@@ -118,9 +123,10 @@ select:-webkit-autofill:focus {
 }
 
 #navigation button:hover {
-  background: #edf0f1;
+  background: orange;
   color: #24252a;
   font-size: 16px;
+  box-shadow: 0 0 10px orange;
 }
 
 #logo,
@@ -133,32 +139,41 @@ select:-webkit-autofill:focus {
 #about-us {
   font-family: Montserrat, sans-serif;
   font-size: 110%;
-  margin: 45px;
+  margin: 20px;
   color: #24252a;
-  text-align: left;
-  width: 21%;
+  background-color:#edf0f1;
+  border-radius: 25px;
+  padding: 25px;
+  text-align: center;
+  width: 25%;
 }
 
 #about-us h2 {
-  color: purple;
+  color: orange;
   text-transform: uppercase;
 }
 
 #about-us-provide {
   font-family: Montserrat, sans-serif;
   font-size: 110%;
-  margin: 45px;
+  margin: 20px;
   color:#24252a;
   text-align: left;
-  width: 21%;
-
-  display: flex;
-  flex-direction: column;
+  
+  background-color: #edf0f1;
+  border-radius: 25px;
+  padding: 25px;
+  width: 25%;
+  text-align: center;
 }
 
 #about-us-provide h2 {
-  color: purple;
+  color: orange;
   text-transform: uppercase;
+}
+
+#about-us-provide strong{
+  color: blue;
 }
 
 /* Styling of the login and Register forms */
@@ -172,7 +187,7 @@ select:-webkit-autofill:focus {
   flex-direction: column;
 
   position: relative;
-  top: 985px;
+  top: 945px;
 }
 
 #contact-form h2 {
@@ -180,6 +195,10 @@ select:-webkit-autofill:focus {
   text-align: center;
   text-transform: uppercase;
   color:#edf0f1;
+}
+
+#contact-form strong {
+  color: orange;
 }
 
 #contact-form h3 {
@@ -200,7 +219,7 @@ select:-webkit-autofill:focus {
   color: #edf0f1;
   border-radius: 25px;
   width: 250px;
-  height: 35px;
+  height: 65px;
   font-size: 14px;
   letter-spacing: 1px;
   background: transparent;
@@ -217,8 +236,8 @@ select:-webkit-autofill:focus {
   border-radius: 25px;
   text-transform: uppercase;
   font-family: Montserrat, sans-serif;
-  background: purple;
-  color: #24252a;
+  background: #24252a;
+  color: #edf0f1;
   font-size: 20px;
   cursor: pointer;
   transition: 0.3s ease;
@@ -227,9 +246,10 @@ select:-webkit-autofill:focus {
 }
 
 #contact-form button:hover {
-  background: #edf0f1;
+  background: orange;
   color: #24252a;
-  font-size: 21px;
+  font-size: 23px;
+  box-shadow: 0 0 10px orange;
 }
 
 .slogan h2 {
@@ -243,46 +263,44 @@ select:-webkit-autofill:focus {
 }
 
 .about-us-1 {
-  background-color:#edf0f1;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items:flex-start;
   position: relative;
-  top: 985px;
-}
-
-.about-us-2 {
-  background-color: #edf0f1;
-  position: relative;
-  top: 985px;
+  top: 945px;
 }
 
 .events {
 
-  height: 500px;
+  height: 600px;
   width: 100%;
 
   display: flex;
   flex-direction: row;
   justify-content: center;
-  background-image: url(../images/ghostrunner.jpg);
-  background-position-y: bottom;
+  background-image: url(../images/polygon-orange.jpg);
+  background-size: 45%;
+
 
   position: relative;
-  top: 985px;
+  top: 945px;
   
 }
 
 .events-card {
   border-radius: 25px;
   background-color: #24252a;
-  height: 400px;
-  width: 300px;
+  height: 500px;
+  width: 400px;
   margin: 50px;
-  
 
 }
 
 .events-card:hover {
   transform:scale(1.02);
   transition: 0.3s ease;
+  box-shadow: 0 0 10px orange;
 }
 
 .events-image {
@@ -295,6 +313,11 @@ select:-webkit-autofill:focus {
 .events-card h2 {
   color:#edf0f1;
   text-align: center;
+}
+
+.events-card h3 {
+  color: orange;
+  text-align:center;
 }
 
 .events-card p {
@@ -340,11 +363,12 @@ select:-webkit-autofill:focus {
 
 .social-info i {
   font-size: 130%;
-  color: #edf0f1;
+  color: orange;
   letter-spacing: 25px;
   margin: 10px;
 }
 
 .social-info i:hover {
-  color: purple;
+  color: #edf0f1;
+  text-shadow: 0 0 10px orange;
 }
