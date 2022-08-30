@@ -9,7 +9,6 @@
 
 html {
   height: 100%;
-
 }
 
 body {
@@ -24,10 +23,6 @@ body {
   background-repeat: no-repeat;
   background-size: 100%
 
-}
-
-section {
-  background-color: #edf0f1;
 }
 
 header {
@@ -124,6 +119,11 @@ select:-webkit-autofill:focus {
   text-shadow: 0 0 5px orange;
 }
 
+#navigation {
+  position: relative;
+  top: 150px;
+}
+
 #navigation button {
   width: 170px;
   height: 30px;
@@ -137,15 +137,12 @@ select:-webkit-autofill:focus {
   transition: 0.3s ease;
   border-style: none;
   letter-spacing: 4px;
-
 }
-
 
 #navigation li {
   float: right;
   list-style: none;
-  margin-right: 42px;
-  padding: 100px;
+  margin: 5px;
 }
 
 #navigation a {
@@ -159,11 +156,6 @@ select:-webkit-autofill:focus {
   color: #24252a;
   font-size: 17px;
   box-shadow: 0 0 10px orange;
-}
-
-#logo,
-#navigation {
-  line-height: 75px;
 }
 
 /* About us Content */
@@ -299,8 +291,8 @@ select:-webkit-autofill:focus {
   justify-content: center;
   align-items:flex-start;
   position: relative;
-  top: 545px;
-  
+  top: 870px;
+
 }
 
 .events {
