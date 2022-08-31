@@ -142,7 +142,7 @@ select:-webkit-autofill:focus {
 #navigation li {
   float: right;
   list-style: none;
-  margin: 5px;
+  margin: 0 200px 0 200px;
 }
 
 #navigation a {
@@ -205,7 +205,6 @@ select:-webkit-autofill:focus {
   width: 100%;
   height: 300px;
   padding: 25px;
-  background-color:black;
   display: flex;
   flex-direction: column;
 
@@ -217,7 +216,7 @@ select:-webkit-autofill:focus {
   font-size: 150%;
   text-align: center;
   text-transform: uppercase;
-  color:#edf0f1;
+  color:#24252a;
 }
 
 #contact-form strong {
@@ -239,7 +238,7 @@ select:-webkit-autofill:focus {
 }
 
 #contact-form input {
-  color: #edf0f1;
+  color:#24252a;
   border-radius: 25px;
   width: 250px;
   height: 65px;
@@ -253,7 +252,7 @@ select:-webkit-autofill:focus {
 }
 
 #contact-form button {
-  width: 200px;
+  width: 170px;
   height: 60px;
   margin: 15px;
   border-radius: 25px;
@@ -261,17 +260,18 @@ select:-webkit-autofill:focus {
   font-family: Montserrat, sans-serif;
   background: #24252a;
   color: #edf0f1;
-  font-size: 20px;
+  font-size: 15px;
   cursor: pointer;
   transition: 0.3s ease;
   border-style: none;
   display: inline;
+  letter-spacing: 4px;
 }
 
 #contact-form button:hover {
   background: orange;
   color: #24252a;
-  font-size: 23px;
+  font-size: 17px;
   box-shadow: 0 0 10px orange;
 }
 
@@ -291,7 +291,7 @@ select:-webkit-autofill:focus {
   justify-content: center;
   align-items:flex-start;
   position: relative;
-  top: 870px;
+  top: 900px;
 
 }
 
@@ -303,9 +303,6 @@ select:-webkit-autofill:focus {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  background-image: url(../images/polygon-orange.jpg);
-  background-size: 45%;
-
 
   position: relative;
   top: 945px;
@@ -314,10 +311,10 @@ select:-webkit-autofill:focus {
 
 .events-card {
   border-radius: 25px;
-  background-color: #24252a;
+  background-color: #edf0f1;
   height: 500px;
-  width: 400px;
-  margin: 50px;
+  width: 300px;
+  margin: 0 70px 0 70px;
 
 }
 
@@ -346,7 +343,7 @@ select:-webkit-autofill:focus {
 
 .events-card p {
   text-align: center;
-  color: #edf0f1;
+  color: #24252a;
   padding: 5%;
 }
 
