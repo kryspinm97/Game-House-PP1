@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Overpass:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Overpass:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Overpass:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Overpass:wght@300&display=swap");
 
 * {
   margin: 0;
@@ -19,25 +19,8 @@ body {
 header {
   display: flex;
   justify-content: space-between;
-  align-items:center;
+  align-items: center;
   padding: 20px 3%;
-}
-
-/* Any previous browser autofill information to match page theme color */
-
-input:-webkit-autofill,
-input:-webkit-autofill:hover,
-input:-webkit-autofill:focus,
-textarea:-webkit-autofill,
-textarea:-webkit-autofill:hover,
-textarea:-webkit-autofill:focus,
-select:-webkit-autofill,
-select:-webkit-autofill:hover,
-select:-webkit-autofill:focus {
-  border: 1px solid #24252a;
-  -webkit-text-fill-color: #edf0f1;
-  box-shadow: 0 0 0px 1000px #24252a inset;
-  transition: background-color 5000s ease-in-out 0s;
 }
 
 /* Logo and Navigation Elements */
@@ -84,7 +67,7 @@ select:-webkit-autofill:focus {
 }
 
 .navigation-links li {
-  display:inline-block;
+  display: inline-block;
   list-style: none;
   margin: 0 10px 0 10px;
 }
@@ -105,15 +88,11 @@ select:-webkit-autofill:focus {
 /* About us Content */
 
 #about-us {
-  font-family: Montserrat, sans-serif;
-  font-size: 110%;
-  margin: 20px;
-  color: #24252a;
-  background-color:#edf0f1;
-  border-radius: 25px;
-  padding: 25px;
+  font-size: 105%;
+  color: #edf0f1;
+  padding: 10px;
   text-align: center;
-  width: 25%;
+  width: 50%;
 }
 
 #about-us h2 {
@@ -122,15 +101,11 @@ select:-webkit-autofill:focus {
 }
 
 #about-us-provide {
-  font-family: Montserrat, sans-serif;
-  font-size: 110%;
-  margin: 20px;
-  color:#24252a;
-  text-align: left;
-  background-color: #edf0f1;
-  border-radius: 25px;
-  padding: 25px;
-  width: 25%;
+  font-size: 105%;
+  color: #edf0f1;
+  text-align: center;
+  padding: 10px;
+  width: 50%;
   text-align: center;
 }
 
@@ -139,22 +114,19 @@ select:-webkit-autofill:focus {
   text-transform: uppercase;
 }
 
-#about-us-provide strong{
-  color: blue;
-}
-
 /* Styling of the login and Register forms */
 
 #contact-form {
-  width: 300px;
-  height: 300px;
+  width: 500px;
+  height: 400px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-background-color: #48464bce;
-border-radius: 20px;
-
+  background-color: #48464bce;
+  border-radius: 20px;
+  position: relative;
+  bottom: 40px;
 }
 
 #contact-form h2 {
@@ -162,7 +134,7 @@ border-radius: 20px;
   margin: 10px;
   text-align: center;
   text-transform: uppercase;
-  color:#edf0f1;
+  color: #edf0f1;
 }
 
 #contact-form strong {
@@ -177,20 +149,19 @@ border-radius: 20px;
 
 #contact-form p {
   font-size: 13px;
-  position:relative;
+  position: relative;
   top: 10px;
   text-align: center;
   margin: 3%;
 }
 
 #contact-form input {
-  color:#24252a;
-  border-radius: 20px;
+  color: #24252a;
+  border-radius: 15px;
   width: 250px;
-  height: 45px;
-  font-size: 14px;
-  letter-spacing: 1px;
-  padding: 10px;
+  height: 40px;
+  margin: 10px;
+  font-size: 15px;
   font-family: Montserrat, sans-serif;
   text-align: center;
 }
@@ -202,6 +173,7 @@ border-radius: 20px;
   border-radius: 25px;
   text-transform: uppercase;
   font-family: Montserrat, sans-serif;
+  font-weight: 600;
   background: #edf0f1;
   color: #24252a;
   font-size: 15px;
@@ -213,7 +185,7 @@ border-radius: 20px;
 #contact-form button:hover {
   background: orange;
   color: #24252a;
-  font-size: 17px;
+  font-size: 16px;
   box-shadow: 0 0 10px orange;
 }
 
@@ -221,6 +193,8 @@ border-radius: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: #24252a;
+  position: relative;
 }
 
 .background-image {
@@ -232,67 +206,67 @@ border-radius: 20px;
   width: 100%;
 }
 
-
-.container {
+.about-us-more {
   display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-
-.about-us-1 {
-  display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
-  align-items:flex-start;
+  align-items: center;
+  background-color: #24252a;
 }
 
 .events {
-
   height: 600px;
   width: 100%;
-
   display: flex;
   flex-direction: row;
   justify-content: center;
-  
+  position: relative;
+  top: 20px;
 }
+
 
 .events-card {
   border-radius: 30px;
-  background-color: #edf0f1;
+  background-color:#edf0f1;
   height: 480px;
   width: 300px;
   margin: 0 70px 0 70px;
-
 }
 
 .events-card:hover {
-  transform:scale(1.02);
+  transform: scale(1.02);
   transition: 0.3s ease;
   box-shadow: 0 0 10px orange;
 }
 
 .events-image {
-  background-color: #edf0f1;
   height: 200px;
   margin-bottom: 15px;
   background-size: cover;
 }
 
 .events-card h2 {
-  color:#edf0f1;
+  color: #24252a;
   text-align: center;
 }
 
 .events-card h3 {
   color: orange;
-  text-align:center;
+  text-align: center;
 }
 
 .events-card p {
   text-align: center;
   color: #24252a;
   padding: 5%;
+}
+
+.events-position {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #24252a;
 }
 
 .events-card-1 {
@@ -327,18 +301,18 @@ border-radius: 20px;
   justify-content: center;
   align-items: center;
 
-  background-color: #242829;
+  background-color: #222222;
   height: 50px;
 }
+
 .social-info {
   text-align: center;
-
 }
 
 .social-info li {
- list-style: none;
- display: inline;
- margin: 0 30px 0 30px;
+  list-style: none;
+  display: inline;
+  margin: 0 30px 0 30px;
 }
 
 .social-info i {
@@ -348,5 +322,4 @@ border-radius: 20px;
 
 .social-info i:hover {
   color: #edf0f1;
-
 }
