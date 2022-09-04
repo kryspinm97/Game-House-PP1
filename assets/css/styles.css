@@ -13,68 +13,14 @@ html {
 
 body {
   font-family: Montserrat, sans-serif;
-  
-  min-height: 100%;
-  display: flex;
-  flex-direction: column;
-
-  background-image: url(../images/minimal-abstract-background-4k-f2.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-size: 100%
-
+  background-color: #24252a;
 }
 
 header {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items:center;
-
-  position: relative;
-  top: 380px;
-}
-
-header > h3 {
-  text-align: center;
-  color: #edf0f1;
-  font-size: 175%;
-  text-transform: uppercase;
-}
-
-h3 > strong {
-  color: orange;
-}
-
-h3 > em {
-  color: orange;
-}
-
-footer {
-  background-color: #24252a;
-  margin: 0;
-  position: relative;
-  top:945px;
-}
-
-footer > p {
-  color:#edf0f1;
-  font-size:75%;
-  position: relative;
-  bottom: 20px;
-}
-
-footer ul {
-  margin-top: 15px;
-}
-
-nav {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  position: relative;
-  bottom: 250px;
+  padding: 20px 3%;
 }
 
 /* Any previous browser autofill information to match page theme color */
@@ -95,21 +41,23 @@ select:-webkit-autofill:focus {
 }
 
 
+#page-container {
+  max-width: 100%;
+}
+
 /* Logo and Navigation Elements */
 
 #logo {
-  display:flex;
-  flex-direction: column;
-  
-  margin-left: 40px;
-  margin-top: 20px;
-  letter-spacing: 5px;
-  
+  width: 100%;
+}
+
+#logo > h1 {
+  cursor: pointer;
 }
 
 #logo a {
   text-transform: uppercase;
-  font-size: 250%;
+  font-size: 175%;
   color: #edf0f1;
   text-decoration: none;
 }
@@ -119,42 +67,43 @@ select:-webkit-autofill:focus {
   text-shadow: 0 0 5px orange;
 }
 
-#navigation {
-  position: relative;
-  top: 150px;
+.navigation-links {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
 }
 
-#navigation button {
+.navigation-links button {
   width: 170px;
   height: 30px;
   border-radius: 25px;
   text-transform: uppercase;
   font-size: 15px;
   font-family: Montserrat, sans-serif;
-  background: #24252a;
-  color: #edf0f1;
+  font-weight: 600;
+  background: #edf0f1;
+  color: #24252a;
   cursor: pointer;
-  transition: 0.3s ease;
+  transition: 0.5s ease;
   border-style: none;
-  letter-spacing: 4px;
 }
 
-#navigation li {
-  float: right;
+.navigation-links li {
+  display:inline-block;
   list-style: none;
-  margin: 0 200px 0 200px;
+  margin: 0 10px 0 10px;
 }
 
-#navigation a {
+.navigation-links a {
   text-transform: uppercase;
   text-decoration: none;
   color: #edf0f1;
 }
 
-#navigation button:hover {
+.navigation-links button:hover {
   background: orange;
   color: #24252a;
-  font-size: 17px;
+  font-size: 16px;
   box-shadow: 0 0 10px orange;
 }
 
@@ -202,21 +151,21 @@ select:-webkit-autofill:focus {
 /* Styling of the login and Register forms */
 
 #contact-form {
-  width: 100%;
+  width: 300px;
   height: 300px;
-  padding: 25px;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
-  position: relative;
-  top: 945px;
 }
 
 #contact-form h2 {
   font-size: 150%;
+  margin: 10px;
   text-align: center;
   text-transform: uppercase;
-  color:#24252a;
+  color:#edf0f1;
 }
 
 #contact-form strong {
@@ -239,33 +188,29 @@ select:-webkit-autofill:focus {
 
 #contact-form input {
   color:#24252a;
-  border-radius: 25px;
+  border-radius: 20px;
   width: 250px;
-  height: 65px;
+  height: 45px;
   font-size: 14px;
   letter-spacing: 1px;
-  background: transparent;
-  margin-top: 15px;
+  padding: 10px;
   font-family: Montserrat, sans-serif;
   text-align: center;
-  margin: 15px;
 }
 
 #contact-form button {
-  width: 170px;
-  height: 60px;
+  width: 120px;
+  height: 40px;
   margin: 15px;
   border-radius: 25px;
   text-transform: uppercase;
   font-family: Montserrat, sans-serif;
-  background: #24252a;
-  color: #edf0f1;
+  background: #edf0f1;
+  color: #24252a;
   font-size: 15px;
   cursor: pointer;
   transition: 0.3s ease;
   border-style: none;
-  display: inline;
-  letter-spacing: 4px;
 }
 
 #contact-form button:hover {
@@ -275,8 +220,31 @@ select:-webkit-autofill:focus {
   box-shadow: 0 0 10px orange;
 }
 
+.contact-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.background-image {
+  background: url(..//images/minimal-abstract-background-4k-f2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 750px;
+  width: 100%;
+}
+
 .slogan h2 {
   color:#edf0f1;
+}
+
+.slogan {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  position: relative;
+  top: 300px;
 }
 
 .container {
@@ -290,9 +258,6 @@ select:-webkit-autofill:focus {
   flex-direction: row;
   justify-content: center;
   align-items:flex-start;
-  position: relative;
-  top: 900px;
-
 }
 
 .events {
@@ -303,16 +268,13 @@ select:-webkit-autofill:focus {
   display: flex;
   flex-direction: row;
   justify-content: center;
-
-  position: relative;
-  top: 945px;
   
 }
 
 .events-card {
-  border-radius: 25px;
+  border-radius: 30px;
   background-color: #edf0f1;
-  height: 500px;
+  height: 480px;
   width: 300px;
   margin: 0 70px 0 70px;
 
@@ -373,20 +335,29 @@ select:-webkit-autofill:focus {
 
 /* Social Media links Styling */
 
+.bottom-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #242829;
+  padding: 25px 0;
+}
 .social-info {
   text-align: center;
+
 }
 
 .social-info li {
-  display: inline-flex;
-  flex-direction: row;
+ list-style: none;
+ display: inline;
+ margin: 0 30px 0 30px;
 }
 
 .social-info i {
-  font-size: 130%;
+  font-size: 200%;
   color: orange;
-  letter-spacing: 25px;
-  margin: 10px;
 }
 
 .social-info i:hover {
