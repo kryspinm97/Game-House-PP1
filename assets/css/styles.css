@@ -13,7 +13,7 @@ html {
 
 body {
   font-family: Montserrat, sans-serif;
-  background-color: #24252a;
+  background-color: #edf0f1;
 }
 
 header {
@@ -38,11 +38,6 @@ select:-webkit-autofill:focus {
   -webkit-text-fill-color: #edf0f1;
   box-shadow: 0 0 0px 1000px #24252a inset;
   transition: background-color 5000s ease-in-out 0s;
-}
-
-
-#page-container {
-  max-width: 100%;
 }
 
 /* Logo and Navigation Elements */
@@ -157,6 +152,8 @@ select:-webkit-autofill:focus {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+background-color: #48464bce;
+border-radius: 20px;
 
 }
 
@@ -227,25 +224,14 @@ select:-webkit-autofill:focus {
 }
 
 .background-image {
-  background: url(..//images/minimal-abstract-background-4k-f2.jpg);
+  background: url(..//images/main-background.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
+  background-position-y: 55%;
   height: 750px;
   width: 100%;
 }
 
-.slogan h2 {
-  color:#edf0f1;
-}
-
-.slogan {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-
-  position: relative;
-  top: 300px;
-}
 
 .container {
   display: flex;
@@ -342,7 +328,7 @@ select:-webkit-autofill:focus {
   align-items: center;
 
   background-color: #242829;
-  padding: 25px 0;
+  height: 50px;
 }
 .social-info {
   text-align: center;
@@ -356,11 +342,11 @@ select:-webkit-autofill:focus {
 }
 
 .social-info i {
-  font-size: 200%;
+  font-size: 150%;
   color: orange;
 }
 
 .social-info i:hover {
   color: #edf0f1;
-  text-shadow: 0 0 10px orange;
+
 }
