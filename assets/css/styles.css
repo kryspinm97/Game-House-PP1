@@ -7,10 +7,6 @@
   box-sizing: border-box;
 }
 
-html {
-  height: 100%;
-}
-
 body {
   font-family: Montserrat, sans-serif;
   background-color: #edf0f1;
@@ -204,6 +200,7 @@ header {
   background-position-y: 55%;
   height: 750px;
   width: 100%;
+  overflow: auto;
 }
 
 .about-us-more {
@@ -229,7 +226,7 @@ header {
   border-radius: 30px;
   background-color:#edf0f1;
   height: 480px;
-  width: 300px;
+  width: 350px;
   margin: 0 70px 0 70px;
 }
 
@@ -267,6 +264,7 @@ header {
   justify-content: center;
   align-items: center;
   background-color: #24252a;
+  overflow: hidden;
 }
 
 .events-card-1 {
@@ -322,4 +320,70 @@ header {
 
 .social-info i:hover {
   color: #edf0f1;
+}
+
+
+@media screen and (max-width: 1350px) {
+
+  header {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #about-us {
+    width: 85%;
+  }
+
+  #about-us-provide {
+    width: 85%;
+  }
+
+  .background-image {
+    background-position-x:85%;
+  }
+
+  .events {
+    display:grid;
+    grid-template-columns: repeat(auto-fill, minmax(295px, 1fr));
+    height: 1200px;
+    justify-items: center;
+  }
+
+  .events-card {
+    margin: 0 auto;
+  }
+  
+}
+
+@media screen and (max-width: 900px) {
+  header {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .events {
+    height: 2550px;
+    margin: 0 auto;
+  }
+
+  header {
+    font-size:75%;
+  }
+
+
+  .navigation-links {
+    display:flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .background-image {
+    background-position-x: 85%;
+  }
+
+  .social-info i {
+    font-size: 120%;
+  }
 }
