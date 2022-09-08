@@ -209,7 +209,7 @@ header {
   background-size: cover;
   background-repeat: no-repeat;
   background-position-y: 55%;
-  height: 800px;
+  height: 950px;
   width: 100%;
   overflow: auto;
 
@@ -228,7 +228,8 @@ header {
 }
 
 .home-page-video video {
-  border: 6px solid #24252a;
+  border: 2px solid lightskyblue;
+  box-shadow: 0 0 10px lightskyblue;
   border-radius: 25px;
   margin: 0 0 20px 0;
 }
@@ -270,7 +271,7 @@ header {
 }
 
 .events-card:hover {
-  transform: scale(1.02);
+  transform: scale(1.01);
   transition: 0.3s ease;
   box-shadow: 0 0 10px orange;
 }
@@ -383,9 +384,9 @@ header {
 
   .events {
     display:grid;
-    grid-template-columns: repeat(auto-fill, minmax(295px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(310px, 1fr));
     height: 1200px;
-    justify-items: center;
+    align-items: center;
   }
 
   .events-card {
@@ -430,7 +431,7 @@ header {
   }
 
   .background-image {
-    background-position-x: 85%;
+    background-position-x: 64%;
   }
 
   .social-info i {
