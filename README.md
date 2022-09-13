@@ -18,13 +18,13 @@ through the week.
 
   * Button hovers are interactive and responsive.
 
-  ![alt text](../html-css-project-1//readme-images/nav-bar.png)
+  ![ScreenShot](./readme-images/nav-bar.png)
 
 * ### Header ### 
 
   * A welcoming Playstation 4 controller themed background image as our landing page main background to notify the user   it's about video game focused website.
 
-  ![alt text](../html-css-project-1/readme-images/header-background.png)
+  ![ScreenShot](./readme-images/header-background.png)
 
 * ### About Us Section ###
 
@@ -32,7 +32,7 @@ through the week.
 
   * Gives the user important information about the place, if the place is well equipped, with a friendly and helpful team with a focus on improving the whole experience.
 
-  ![alt text](../html-css-project-1/readme-images/About%20us.png)
+  ![ScreenShot](./readme-images/About%20us.png)
 
 * ### Cards ### 
 
@@ -40,7 +40,7 @@ through the week.
 
   * It provides the user with the brief description of the well known games along with the times the games are on.
 
-  ![alt text](../html-css-project-1/readme-images/activity-cards.png)
+  ![ScreenShot](./readme-images/activity-cards.png)
 
 * ### Contact Form ###
 
@@ -52,4 +52,4 @@ through the week.
 
   * It also consists of 4 Social Media links to the Game House to find out more about the details from other members.
 
-  ![alt text](../html-css-project-1/readme-images/contact-%20form.png)
+  ![ScreenShot](./readme-images/contact-%20form.png)
