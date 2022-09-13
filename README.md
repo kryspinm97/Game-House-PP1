@@ -26,6 +26,12 @@ through the week.
 
   ![ScreenShot](./readme-images/header-background.png)
 
+* ### Video ###
+
+  * Below is a video showing the players readying up for the first gaming session of the day
+
+  ![ScreenShot](./readme-images/video-game.png)
+
 * ### About Us Section ###
 
   * The about us section consists of the information about our cafe as to where it is located , along with the tournaments and activities that are held.
@@ -53,3 +59,37 @@ through the week.
   * It also consists of 4 Social Media links to the Game House to find out more about the details from other members.
 
   ![ScreenShot](./readme-images/contact-%20form.png)
+
+
+## Testing ## 
+
+  * The website was tested on the Google Chrome, Firefox and Safari browsers with no issues.
+
+  * I confirmed that the website looks good with the colors matching throughout the page.
+
+  * The form works well with the required inputs in all the fields.
+
+  * When resizing the window the cards reposition to fit according to screen size.
+
+  * Feels responsive and smooth.
+  
+
+## Bugs ## 
+
+### Solved Bugs ### 
+
+  * 
+
+
+## Validator Testing ##
+
+* ### HTML ###
+  * No errors found during the W3C validator for HTML documents
+
+* ### CSS ###
+  * No errors found during the Jigsaw validator for CSS documents
+
+* ### Accessibility ###
+  * I have tested the project in the lighthouse devtools that all the colors were chosen well to suit together along with the fonts for easy readability and understanding.
+
+  ![ScreenShot](./readme-images/Lighthouse-test.png)
