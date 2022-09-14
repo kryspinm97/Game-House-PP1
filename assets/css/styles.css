@@ -23,6 +23,13 @@ header {
   padding: 20px 3%;
 }
 
+footer p {
+  font-size: 75%;
+  margin: 10px;
+  text-align: center;
+  color: #edf0f1;
+}
+
 /* Logo and Navigation Elements */
 
 #logo {
@@ -319,7 +326,7 @@ header {
   align-items: center;
 
   background-color: #222222;
-  height: 50px;
+  height: 70px;
 }
 
 .social-info {
