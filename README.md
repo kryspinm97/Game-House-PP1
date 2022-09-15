@@ -6,7 +6,65 @@ Users can see what the Game House can provide in terms of equipment and activite
 through the week.
 
 
-## Features ##
+# UX #
+
+## User Stories ##
+
+  * As the site owner I want : 
+    * The information to be clear
+    * Simple to navigate around
+    * Not cluttered with too much information
+
+  * As the user, I would want : 
+    * To understand what I'm looking for
+    * Easily work around the website and navigate information
+    * Why would this cafe bring in my interest
+    * What would this place have to offer
+
+## 1. Strategy ##
+
+  * Purpose of the Project 
+    * Bring together a community of gamers and people that enjoy having a fun time on video games with friends
+
+    * Create activities and tournaments to win prizes
+
+## 2. Scope ## 
+
+  * I wanted a visually grabbing website. 
+  * Clean and straightforward.
+  * As easy for the user to navigate around the page as possible.
+  * Organisation of tournaments and activities
+  * Build a great gaming community
+  * Mobile device friendly
+
+
+## 3. Structure ##
+
+* Navigation bar clearly consisting of the Game House logo and Navigation elements that stand out straight away for easy access to different sections on the page.
+* Landing page image of a Playstation controller with warm colors ensuring a welcoming feeling into a gaming themed cafe page.
+* A video showing a couple of members getting ready to jump into their first session of the day showing a brief look into the Game House.
+* About Us section stating all the information neccessary about the Game House, its team and more.
+* Tournament/Activity Cards available for all members to join at certain times during the week to win amazing prizes.
+* Contact Form to sign up the interest in joining the members of the Game House along with all the Social Media Links.
+
+## 4. Skeleton ## 
+I have used a software called Balsamiq Wireframes to construct my initial sketches of the website. I have made initial ideas and work from those wireframes and then updated and adjusted the website as I went forwards with the project.
+
+* Home Page : [Home Sketch](./assets/readme-images/Rough%20Sketch.png)
+* About Us : [About Us Sketch](./assets/readme-images/About-us-sketch.png)
+* Contact Us : [Contact Sketch](./assets/readme-images/Contact-us-sketch.png)
+
+## 5. Surface ##
+
+ * Theme Selection 
+    * When deciding on what color theme to go with I decided to play around with a variety of colors but in the end I've decided to go with an Orange themed page, with blue accents in some areas for text and also grey for other background areas on the page.
+
+  * Font Selection 
+    * I have decided to go with Montserrat font, that I have chosen from the Google Fonts.
+
+
+     
+# Features #
 
 * ### Navigation ###
 
@@ -61,7 +119,7 @@ through the week.
   ![ScreenShot](./assets/readme-images/contact-%20form.png)
 
 
-## Testing ## 
+# Testing # 
 
   * The website was tested on the Google Chrome, Firefox and Safari browsers with no issues.
 
@@ -76,7 +134,7 @@ through the week.
   * Have tested the page on different devices using the Chrome DevTools, working successfully.
   
 
-## Bugs ## 
+# Bugs # 
 
 ### Solved Bugs ### 
 
@@ -88,7 +146,7 @@ through the week.
   * When manually resizing the window the cards don't resize on contact with each other the whole time.
 
 
-## Validator Testing ##
+# Validator Testing #
 
 * ### HTML ###
   * No errors found during the W3C validator for HTML documents
@@ -101,13 +159,13 @@ through the week.
 
   ![ScreenShot](./assets/readme-images/Lighthouse-test.png)
 
-## Potential Features ##
+# Potential Features #
 
 * ## Sign In Page 
   * Members will be able to sign in to their own account with us and avail of our offers
 
 
-## Deployment ##
+# Deployment #
 
 * The steps to deploy are as follows:
 * In the GitHub repository, navigate to the Settings tab;
@@ -115,7 +173,7 @@ through the week.
 * Once the master branch has been selected, the page will be automatically uploaded. The live link can be found <a href="http://gamehouse.com" target="_blank">Game House</a>
 
 
-## Credits ##
+# Credits #
 
 ### Media ###
 
