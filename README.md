@@ -11,11 +11,13 @@ through the week.
 ## User Stories ##
 
   * As the site owner I want : 
+  
     * The information to be clear
     * Simple to navigate around
     * Not cluttered with too much information
 
   * As the user, I would want : 
+
     * To understand what I'm looking for
     * Easily work around the website and navigate information
     * Why would this cafe bring in my interest
@@ -59,6 +61,8 @@ I have used a software called Balsamiq Wireframes to construct my initial sketch
  * Theme Selection 
     * When deciding on what color theme to go with I decided to play around with a variety of colors but in the end I've decided to go with an Orange themed page, with blue accents in some areas for text and also grey for other background areas on the page.
 
+  ![ScreenShot](./assets/readme-images/Color%20Pallete.png)
+
   * Font Selection 
     * I have decided to go with Montserrat font, that I have chosen from the Google Fonts.
 
@@ -68,7 +72,7 @@ I have used a software called Balsamiq Wireframes to construct my initial sketch
 
 * ### Navigation ###
 
-  * The navigation bar consists of 3 buttons locating to three different stages of the page which is located at the top right of the landing page.
+  * The navigation bar consists of 4 buttons locating to four different stages of the page which is located at the top right of the landing page.
 
   * All the navigation elements are clear to the user and easy to find.
 
@@ -76,7 +80,7 @@ I have used a software called Balsamiq Wireframes to construct my initial sketch
 
   * Button hovers are interactive and responsive.
 
-  ![ScreenShot](./assets/readme-images/nav-bar.png)
+  ![ScreenShot](./assets/readme-images/Nav%20Bar.png)
 
 * ### Header ### 
 
@@ -153,6 +157,13 @@ I have used a software called Balsamiq Wireframes to construct my initial sketch
 
 * ### CSS ###
   * No errors found during the Jigsaw validator for CSS documents
+
+  * <a href="http://jigsaw.w3.org/css-validator/check/referer">
+        <img style="border:0;width:88px;height:31px" src="http://jigsaw.w3.org/css-validator/images/vcss" alt="Valid CSS!" /> </a>
+
+    <a href="http://jigsaw.w3.org/css-validator/check/referer">
+    <img style="border:0;width:88px;height:31px" src="http://jigsaw.w3.org/css-validator/images/vcss-blue" alt="Valid CSS!" /> </a>
+    
 
 * ### Accessibility ###
   * I have tested the project in the lighthouse devtools that all the colors were chosen well to suit together along with the fonts for easy readability and understanding.

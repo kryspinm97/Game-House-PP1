@@ -30,8 +30,6 @@ footer p {
   color: #edf0f1;
 }
 
-/* Logo and Navigation Elements */
-
 #logo {
   width: 100%;
 }
@@ -156,6 +154,32 @@ footer p {
   box-shadow: 0 0 10px white;
 }
 
+#home-page-video {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #24252a;
+}
+
+#home-page-video strong {
+  color: orange;
+}
+
+#home-page-video video {
+  border: 2px solid lightskyblue;
+  box-shadow: 0 0 10px lightskyblue;
+  border-radius: 25px;
+  margin: 0 0 20px 0;
+}
+
+#home-page-video h2 {
+  text-align: center;
+  font-size: 180%;
+  color: #edf0f1;
+  text-transform: uppercase;
+  margin: 20px;
+}
+
 .navigation-links {
   display: flex;
   flex-direction: row;
@@ -201,32 +225,6 @@ footer p {
   height: 930px;
   width: 100%;
   overflow: auto;
-}
-
-.home-page-video {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-color: #24252a;
-}
-
-.home-page-video strong {
-  color: orange;
-}
-
-.home-page-video video {
-  border: 2px solid lightskyblue;
-  box-shadow: 0 0 10px lightskyblue;
-  border-radius: 25px;
-  margin: 0 0 20px 0;
-}
-
-.home-page-video h2 {
-  text-align: center;
-  font-size: 180%;
-  color: #edf0f1;
-  text-transform: uppercase;
-  margin: 20px;
 }
 
 .about-us-more {
@@ -284,7 +282,7 @@ footer p {
   padding: 5%;
 }
 
-.events-position {
+#events-position {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -316,8 +314,6 @@ footer p {
   border-radius: 25px;
   background-position: 40%;
 }
-
-/* Social Media links Styling */
 
 .bottom-footer {
   display: flex;
@@ -384,7 +380,7 @@ footer p {
     flex-direction: column;
   }
 
-  .home-page-video {
+  #home-page-video {
     left: 100px;
   }
 }
@@ -399,7 +395,7 @@ footer p {
     font-size: 75%;
   }
 
-  .home-page-video video {
+  #home-page-video video {
     width: 300px;
     height: 300px;
   }
