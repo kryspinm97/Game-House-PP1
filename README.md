@@ -5,6 +5,7 @@ Game House is a page aimed at those who are looking for a fun time with video ga
 Users can see what the Game House can provide in terms of equipment and activites and tournaments held at different times
 through the week.
 
+![ScreenShot](./assets/readme-images/Ami-Responsive.png)
 
 # UX #
 
